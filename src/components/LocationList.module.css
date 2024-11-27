@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offices_label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 100;
+    line-height: 64px;
+    color: #33a6ba;
+    margin: 40px;
+}
+
+.add_new_location_label{
+    /* Add any necessary styles */
+}
+
+.plus_icon{
+    /* Add any necessary styles */
+}

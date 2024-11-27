@@ -1,0 +1,32 @@
+.locationButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 370px; /* Use the same width as the location item */
+    height: 60px;
+    margin: auto;
+    padding: 12px 25px;
+    border-radius: 8px;
+    background-color: #33a5b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.locationText {
+    font-size: 16px;
+    text-align: left;
+}
+
+#plusIcon {
+    font-size: 35px;
+}
+
+@media (max-width: 768px) {
+    .locationButton {
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blue-coding-app
+  labels:
+    app: blue-coding-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: blue-coding-app
+  template:
+    metadata:
+      labels:
+        app: blue-coding-app
+    spec:
+      containers:
+      - name: app
+        image: blue-coding-app:latest
+        ports:
+        - containerPort: 3000
+        env:
+        - name: NODE_ENV
+          value: "production"

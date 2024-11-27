@@ -1,0 +1,38 @@
+.wrapper {
+    position: relative;
+    width: 370px;
+}
+
+.locationItem {
+    background-color: white;
+    border-radius: 8px;
+    padding: 35px 30px 30px 30px;
+    margin: 20px 0;
+    transition: background-color 0.2s ease;
+    box-sizing: border-box;
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.locationTitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #313e4f;
+}
+
+.locationAddress {
+    color: grey;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.locationIcon {
+    position: absolute;
+    width: 16px;
+    stroke-width: 1px;
+    stroke: #33a6ba;
+    cursor: pointer;
+    transform: translate(325px, -85px);
+}
